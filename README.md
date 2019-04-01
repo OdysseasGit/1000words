@@ -90,6 +90,11 @@ Data used in this web application are exclusively open data sources.
 5.	Water Levels extracted from River Watch Mobile App, GeoNB, created and maintained by Civic Tech Fredericton (http://geonb.snb.ca/rwm/)
 
 
+## Application Link
+https://mli11unbca.maps.arcgis.com/apps/webappviewer/index.html?id=e3c8c608a79740888d10b85baef5c5d3
+
+
+
 
 
 
