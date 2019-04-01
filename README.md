@@ -1,21 +1,21 @@
 # 1000words: A Fredericton flood event showcase
 __Submission for the 2019 ESRI ECCE App Challenge__
 
-###Team
+### Team
 
 Mingke Li: Lead Web Mapping Application implementation
 Odysseas Vlachopoulos: Web Mapping Application implementation, Data processing
 Toni McRae: Media
 
 
-##Mission Statement
+## Mission Statement
 
 From a historical perspective, communities are formed around water bodies in the early days of settling Canada due to the necessity of shipping and transport. This can be seen quite evidently in maritime Canada, specifically Fredericton, New Brunswick. Seasonally, Fredericton experiences flooding to varying degrees as a function of snow and ice melt and precipitation. This is generally seen in the early spring during the months of April and May. While Fredericton and area residents may come to expect these conditions, it is of immense importance to be prepared for it. It is also essential to create systems to monitor the event as it unfolds in real time, in order to best plan mitigation procedures such as closing roads or evacuating areas of concern. That process however, cannot solely rest on the shoulders of municipal and emergency authorities. It is something that we as a community must all take on. With accessible mobile geospatial tools, the community becomes involved in monitoring efforts, by virtue of wherever they happen to be when water levels are rising. Therein providing the empirical information from a multitude of locations. This information is key to build a larger picture of the situation as it progresses, and ultimately the planning to manage it.  
 Currently in place is New Brunswick River Watch, a provincial initiative that provides forecasting and updates to the public during flood events. However – it is not always possible for municipal and monitoring staff to be everywhere at once, or at the particular time needed to identify key indicators of a progressing flood event. A centralized crowd sourced mobile app structured to gather the information required quickly and easily would greatly assist that initiative.  
 To the purpose of the application, the 1000words web mapping application for Fredericton would allow for the collective dissemination of user input reports on various flood conditions as they progress, as well as real time water level statistics directly from provincial gauges. This would directly support provincial, municipal and community efforts in the mitigation of the flood. Moreover, the future use of the data collected will serve as highly valuable in future urban planning initiatives. Disaster management is no longer strictly the purview of official authorities, but a collective issue that the entire community can support. Many hands make light work, after all.  
 
 
-##Benefit to the User
+## Benefit to the User
 
 Presently, flood mitigation is taken on in part by the province and the municipality. However, more ‘boots on the ground’ is essential during the onset of these events, as the effects of seasonal flooding is wide reaching and not always predictable. Further, a centralized, geospatially based, and easily accessible repository to disseminate real time information would be tremendously useful in that all stakeholders have a central reference to work from and work with. Moreover, this data can be used in the future to evaluate the collective response and make improvements for the following season, in addition to future urban planning initiatives.  
 The end user benefit is twofold, in that the benefit is experienced by the authorities mitigating the flood event, which in turn benefits the wider public. Not only could the use of the app be seen in the optimization of disaster management efforts at the time of the flood event, but also in the improvement of disaster management in the future. Additionally, it could also create an element of culture within the community, creating a standard of public participation in the support of regional efforts.  
@@ -23,7 +23,7 @@ Speaking to the characteristics of the app, overall centralization of empirical 
 The overreaching theme of this app is to connect what an individual sees in real time, with the bigger picture authorities and community groups seek to plan and manage, using the two ends of the same application. Moreover, because this app is accessed by the front end user on their mobile device, it is feasible that its continued use could become a part of wider community culture, therein creating an accepted standard of community and public involvement in disaster management support.  
 
 
-##App Description & Features
+## App Description & Features
 
 Our application is created using the WebApp Builder for ArcGIS and ArcMap 10.6:
 
@@ -41,7 +41,7 @@ The app allows the user to see the flood related data from the 2018 event as a h
 User inputs for the flood extent and severity, survey results through the Survey123 functionality and real time data from that event are shown to the user that navigates through the current version of the app.
 
 
-####Layer Description:
+#### Layer Description:
 
 - User Input Layer: A layer of the user inputs regarding the flood severity based on the user's real-time experience, including if the spot can be passed by vehicles or pedestrian, and the water level ranks estimated by users. 
 
@@ -51,7 +51,7 @@ User inputs for the flood extent and severity, survey results through the Survey
 
 - City Zones: Zoning spatial data that are used to show areas and property classification in Fredericton in accordance with community goals and visions for the future of this city and its neighborhoods. It is an important information layer for historical and currently flooded areas.
 
-#####Widgets Used:
+##### Widgets Used:
 
 - About widget: Creates content that displays in the information window. In 1000words WebApp it displays the basic information for the app itself and instructions on filling the Citizen Observation input and the Citizen Observatory Survey.
 
@@ -68,7 +68,7 @@ User inputs for the flood extent and severity, survey results through the Survey
 - Directions widget: Provide a quick and efficient method of calculating turn-based directions between two or more locations.
 
 
-##Data Sources
+## Data Sources
 
 Data used in this web application are exclusively open data sources.
 
