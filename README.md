@@ -1,6 +1,8 @@
 # 1000words: A Fredericton flood event showcase
 __Submission for the 2019 ESRI ECCE App Challenge__
 
+__One map, 1000words__
+
 ### Team
 
 Mingke Li: Lead Web Mapping Application implementation
