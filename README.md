@@ -5,11 +5,11 @@ __Submission for the 2019 ESRI ECCE App Challenge__
 
 ### Team
 
-Mingke Li: Lead Web Mapping Application implementation
-
 Odysseas Vlachopoulos: Web Mapping Application implementation, Data processing
 
-Toni McRae: Media
+Mingke Li: Lead Web Mapping Application implementation
+
+Toni McRae: Media marketing
 
 
 ## Mission Statement
