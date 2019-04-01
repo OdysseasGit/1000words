@@ -27,21 +27,24 @@ The overreaching theme of this app is to connect what an individual sees in real
 
 Our application is created using the WebApp Builder for ArcGIS and ArcMap 10.6:
 
-* Data processing
+* __Data processing__
 
-Flood of 2018
+Flood of 2018:
+
 For the flooding event of 2018, no official data have been released in the open domain. As it was a most recent example and one of the worst floods in the history of Fredericton with extensive damages and disaster impact in the region, we chose to show what available data could be found. Sentinel 2 satellite data was available for a very indicative day of flooding the event under clear skies. L1C Red, Green and Blue bands from 2018/05/02 were used.  These 10m spatial resolution bands were chosen for best showcase reproducibility as optical sensors in both aerial (e.g. from Unmanned Aircraft Systems for damage inspection) and satellites have RGB capturing capacities. The 3 bands were inserted in a classification process in ArcMap 10.6. The Random Trees classification algorithm was trained and used to distinguish between water bodies and the rest of the features, resulting in an excellent result.
 The intersects of the city and the flood extents were calculated and are depicted as the most important to impact historical high risk areas within the city of Fredericton.
-Historical data for the 2018 flood event
+
+Historical data for the 2018 flood event:
+
 For the historical data of the 2018 flood event, data from 2018/04/22 to 2018/05/10 were used. These data were corrected for ESRI standards and sampled using Python scripting, a capacity provided by ArcMap and Python for ArcGIS. 
 
-* Current functionalities
+* __Current functionalities__
 
 The app allows the user to see the flood related data from the 2018 event as a historically informative function and an alias to a coexistent live version app to be developed.
 User inputs for the flood extent and severity, survey results through the Survey123 functionality and real time data from that event are shown to the user that navigates through the current version of the app.
 
 
-#### Layer Description:
+### Layer Description:
 
 - User Input Layer: A layer of the user inputs regarding the flood severity based on the user's real-time experience, including if the spot can be passed by vehicles or pedestrian, and the water level ranks estimated by users. 
 
@@ -51,7 +54,7 @@ User inputs for the flood extent and severity, survey results through the Survey
 
 - City Zones: Zoning spatial data that are used to show areas and property classification in Fredericton in accordance with community goals and visions for the future of this city and its neighborhoods. It is an important information layer for historical and currently flooded areas.
 
-##### Widgets Used:
+#### Widgets Used:
 
 - About widget: Creates content that displays in the information window. In 1000words WebApp it displays the basic information for the app itself and instructions on filling the Citizen Observation input and the Citizen Observatory Survey.
 
